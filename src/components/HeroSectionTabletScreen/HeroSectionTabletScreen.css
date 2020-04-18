@@ -1,77 +1,81 @@
-.computer-hero-container {
+.tablet-hero-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 7%;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
-.computer-hero-heading h1 {
+.tablet-hero-heading h1 {
     color: #fff;
     text-align: center;
     padding-bottom: 3rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
-.computer-hero-icons-container {
+.tablet-hero-icons-container {
     border: solid 1px rgba(140, 140, 140, 1);
     background-color: rgba(140, 140, 140, .1);
     border-radius: 5px;
-    width: 60%;
+    width: 75%;
 }
 
-.computer-hero-icons {
+.tablet-hero-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
-.computer-hero-icons img {
-    height: 6rem;
+.tablet-hero-icons img {
+    height: 3rem;
     opacity: 0.75;
 }
 
-.computer-hero-icons img:hover {
+.tablet-hero-icons img:hover {
     opacity: 1;
     animation:spin 1.5s linear infinite;
 }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-.computer-hero-icons-label-container div {
+.tablet-hero-icons-label-container div {
     padding-bottom: 5rem;
-    margin-left: 2.5rem;
+    margin-left: 1rem;
 }
 
-.computer-hero-icons-label-container div a {
+.tablet-hero-icons-label-container div a {
     color: #fff;
     font-size: 1.5rem;
     text-align: center;
 }
 
-.computer-hero-icons-label-container div:hover {
+.tablet-hero-icons-label-container div:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
-.computer-hero-icons-label-container div:nth-child(2) {
-    margin-left: 5.5rem;
+.tablet-hero-icons-label-container div:nth-child(1) {
+    margin-left: 2rem;
 }
 
-.computer-hero-icons-label-container {
+.tablet-hero-icons-label-container div:nth-child(2) {
+    margin-left: 4rem;
+}
+
+.tablet-hero-icons-label-container {
     display: flex;
     justify-content: space-around;
 
 }
 
-.computer-hero-bottom-arrow-container {
-    padding-top: 5rem;
+.tablet-hero-bottom-arrow-container {
+    padding-top: 4rem;
     -webkit-animation: bounce 1s infinite alternate;
 }
 
-.computer-hero-bottom-arrow-container img {
-    height: 3rem;
+.tablet-hero-bottom-arrow-container img {
+    height: 2rem;
 }
 
 @keyframes bounce {

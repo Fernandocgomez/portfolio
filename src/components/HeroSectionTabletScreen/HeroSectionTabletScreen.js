@@ -1,20 +1,20 @@
-import React from "react";
-import "./HeroSectionComputerScreen.css";
+import React from 'react'
+import './HeroSectionTabletScreen.css';
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
 import stackOverflow from "../../assets/stack-overflow.png";
 import arrow from "../../assets/down-arrow.png";
 import { Responsive} from "semantic-ui-react";
 
-function HeroSectionComputerScreen() {
+function HeroSectionTabletScreen() {
   return (
-    <Responsive {...Responsive.onlyComputer}>
-      <div className="computer-hero-container">
-        <div className="computer-hero-heading">
+  <Responsive {...Responsive.onlyTablet}>
+    <div className="tablet-hero-container">
+        <div className="tablet-hero-heading">
           <h1>Fernando Gomez - Full-Stack Web Developer</h1>
         </div>
-        <div className="computer-hero-icons-container">
-          <div className="computer-hero-icons">
+        <div className="tablet-hero-icons-container">
+          <div className="tablet-hero-icons">
             <a href="https://github.com/Fernandocgomez">
               <img src={github} alt="github icon" />
             </a>
@@ -25,7 +25,7 @@ function HeroSectionComputerScreen() {
               <img src={stackOverflow} alt="stack overflow icon" />
             </a>
           </div>
-          <div className="computer-hero-icons-label-container">
+          <div className="tablet-hero-icons-label-container">
             <div>
               <a href="https://github.com/Fernandocgomez">Github</a>
             </div>
@@ -39,12 +39,12 @@ function HeroSectionComputerScreen() {
             </div>
           </div>
         </div>
-        <div className="computer-hero-bottom-arrow-container">
+        <div className="tablet-hero-bottom-arrow-container">
           <img src={arrow} alt="arrow bouncing" />
         </div>
       </div>
-    </Responsive>
-  );
+  </Responsive>
+  )
 }
 
-export default HeroSectionComputerScreen;
+export default HeroSectionTabletScreen

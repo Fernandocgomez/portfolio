@@ -10,12 +10,12 @@ function NavBarMobileScreen(props) {
   <Responsive {...Responsive.onlyMobile}>
     <div className="mobile-container">
       <div className="mobile-burger-container">
-        <Link to="/">
           <img src={burger} alt="burger-icon" onClick={props.burgerMenuToggle}/>
-        </Link>
       </div>
       <div className="mobile-logo-container">
-        <img src={logo} alt="logo"/>
+        <Link to="/">
+          <img src={logo} alt="logo"/>
+        </Link>
       </div>
       <div className="mobile-empty-container">
       </div>

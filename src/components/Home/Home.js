@@ -1,29 +1,31 @@
 import React from 'react'
 import './Home.css';
 import HeroSectionComputerScreen from '../HeroSectionComputerScreen/HeroSectionComputerScreen';
-import { Responsive} from "semantic-ui-react";
+import HeroSectionTabletScreen from '../HeroSectionTabletScreen/HeroSectionTabletScreen';
+
 
 function Home() {
   return (
-    <Responsive {...Responsive.onlyComputer}>
-      <div className="computer-home-container">
-        <div className="computer-hero-section-container">
+    <div>
+      <div className="home-container">
+        <div className="hero-section-container">
           <HeroSectionComputerScreen />
+          <HeroSectionTabletScreen />
         </div>
-        <div className="computer-about-section-container">
+        <div className="about-section-container">
 
         </div>
-        <div className="computer-portfolio-section-container">
+        <div className="portfolio-section-container">
 
         </div>
-        <div className="computer-skills-section-container">
+        <div className="skills-section-container">
 
         </div>
-        <div className="computer-hire-me-section-container">
+        <div className="hire-me-section-container">
 
         </div>
       </div>
-    </Responsive>
+    </div>
     
   )
 }

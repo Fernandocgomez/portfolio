@@ -81,7 +81,7 @@ function NavBarComputerScreen() {
 
         <div className="computer-left-size">
             <div className="computer-logo">
-                <Link to="/">
+                <Link to="/" onClick={(e) => handleClick(e)}>
                     <img src={logo} alt="logo"/>
                 </Link>
             </div>
