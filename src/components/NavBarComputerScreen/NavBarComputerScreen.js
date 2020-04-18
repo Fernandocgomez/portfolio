@@ -118,7 +118,6 @@ function NavBarComputerScreen() {
 
 export default NavBarComputerScreen;
 
-{
-  /* <Responsive {...Responsive.onlyMobile}>Mobile</Responsive>
-<Responsive {...Responsive.onlyTablet}>Tablet</Responsive> */
-}
+
+// <Responsive {...Responsive.onlyTablet}>Tablet</Responsive>
+
