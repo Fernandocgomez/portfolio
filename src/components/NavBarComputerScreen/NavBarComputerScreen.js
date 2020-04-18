@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Responsive} from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import './NavBarComputerScreen.css'
+import logo from '../../assets/logo.png'
 
 function NavBarComputerScreen() {
 
@@ -11,14 +12,14 @@ function NavBarComputerScreen() {
         contact: false
     })
 
-    let handleClick = (e) => {
-        switch(e.target.name) {
+    useEffect(() => {
+        switch(localStorage.SelectedOption) {
             case "projects": 
                 return setState({
-                    projects: true, 
-                    about: false, 
-                    contact: false
-                })
+                projects: true, 
+                about: false, 
+                contact: false
+            })
             case "about":
                 return setState({
                     projects: false, 
@@ -38,7 +39,41 @@ function NavBarComputerScreen() {
                     contact: false
                 })
         }
+    }, []);
+
+    let handleClick = (e) => {
+        switch(e.target.name) {
+            case "projects":
+                localStorage.setItem( 'SelectedOption', "projects"); 
+                return setState({
+                    projects: true, 
+                    about: false, 
+                    contact: false
+                })
+            case "about":
+                localStorage.setItem( 'SelectedOption', "about"); 
+                return setState({
+                    projects: false, 
+                    about: true, 
+                    contact: false
+                })
+            case "contact":
+                localStorage.setItem( 'SelectedOption', "contact"); 
+                return setState({
+                    projects: false, 
+                    about: false, 
+                    contact: true
+                })
+            default:
+                return setState({
+                    projects: false, 
+                    about: false, 
+                    contact: false
+                })
+        }
     }
+
+
 
   return (
     <Responsive {...Responsive.onlyComputer}>
@@ -46,7 +81,7 @@ function NavBarComputerScreen() {
 
         <div className="computer-left-size">
             <div className="computer-logo">
-                <img src="https://crypto-simulator.herokuapp.com/static/media/logo.1028e9f4.png" alt="logo"/>
+                <img src={logo} alt="logo"/>
             </div>
         </div>
 
