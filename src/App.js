@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import NavBar from './components/NavBar/NavBar';
+import Home from './components/Home/Home';
 
 function App() {
   return (
@@ -9,11 +10,11 @@ function App() {
       <Switch>
         
 
-        {/* <Route
+        <Route
           exact
-          path="/login"
-          component={history => <LoginContainer history={history} />}
-        /> */}
+          path="/"
+          component={history => <Home history={history} />}
+        />
 
       </Switch>
     </BrowserRouter>

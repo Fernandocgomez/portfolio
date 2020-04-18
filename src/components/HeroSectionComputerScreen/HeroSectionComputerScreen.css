@@ -1,0 +1,92 @@
+.computer-hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7%;
+}
+
+.computer-hero-heading h1 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.computer-hero-icons-container {
+    border: solid 1px rgba(140, 140, 140, 1);
+    background-color: rgba(140, 140, 140, .1);
+    border-radius: 5px;
+    width: 60%;
+}
+
+.computer-hero-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.computer-hero-icons img {
+    height: 6rem;
+    opacity: 0.75;
+}
+
+.computer-hero-icons img:hover {
+    opacity: 1;
+    animation:spin 1.5s linear infinite;
+}
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.computer-hero-icons-label-container div {
+    padding-bottom: 5rem;
+    margin-left: 2.5rem;
+}
+
+.computer-hero-icons-label-container div a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.computer-hero-icons-label-container div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.computer-hero-icons-label-container div:nth-child(2) {
+    margin-left: 5.5rem;
+}
+
+.computer-hero-icons-label-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.computer-hero-bottom-arrow-container {
+    padding-top: 5rem;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+.computer-hero-bottom-arrow-container img {
+    height: 3rem;
+}
+
+@keyframes bounce {
+from {
+    transform: translateY(0px);
+}
+to {
+    transform: translateY(-3rem);
+}
+}
+
+@-webkit-keyframes bounce {
+from {
+    transform: translateY(0px);
+}
+to {
+    transform: translateY(-3rem);
+}
+}

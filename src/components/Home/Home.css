@@ -1,0 +1,29 @@
+.computer-home-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.computer-hero-section-container {
+    background-color: #283149;
+    min-height: 100vh;
+}
+
+.computer-about-section-container {
+    background-color: red;
+    padding: 2rem;
+}
+
+.computer-portfolio-section-container {
+    background-color: blue;
+    padding: 2rem;
+}
+
+.computer-skills-section-container {
+    background-color: yellow;
+    padding: 2rem;
+}
+
+.computer-hire-me-section-container {
+    background-color: black;
+    padding: 2rem;
+}
