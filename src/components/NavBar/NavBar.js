@@ -4,6 +4,7 @@ import NavBarComputerScreen from '../NavBarComputerScreen/NavBarComputerScreen';
 import NavBarMobileScreen from '../NavBarMobileScreen/NavBarMobileScreen';
 import { slide as Menu } from 'react-burger-menu'
 import { Link } from "react-router-dom";
+import NavBarTabletScreen from '../NavBarTabletScreen/NavBarTabletScreen';
 
 
 function NavBar() {
@@ -24,7 +25,9 @@ function NavBar() {
 
       <NavBarMobileScreen  burgerMenuToggle={burgerMenuToggle}/>
 
-      <Menu customBurgerIcon={ false } isOpen={ state } disableAutoFocus>
+      <NavBarTabletScreen />
+
+      <Menu customBurgerIcon={ false } isOpen={ state } disableAutoFocus width={ 220 }>
 
         <Link 
         to="projects" 

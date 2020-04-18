@@ -1,1 +1,25 @@
-.NavBarTabletScreen {}
+.tablet-container {
+    background-color: #0b8457;
+    border-bottom: solid 1px #dee1ec;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablet-logo img {
+    width: 15rem;
+}
+
+.tablet-nav-links {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.tablet-nav-links:focus {
+    color: #fff;
+}
+
+.tablet-projects, .tablet-about, .tablet-contact-me {
+    margin-top: .5rem;
+}
+

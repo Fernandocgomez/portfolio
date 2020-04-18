@@ -25,10 +25,10 @@
 
 .nav-Link {
     align-self: center;
-    padding: 1rem;
+    padding: 1.5rem;
     color: #fff;
-    font-weight: 600;
-    font-size: 1.4rem;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 
 .nav-link-selected {

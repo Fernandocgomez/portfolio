@@ -81,7 +81,9 @@ function NavBarComputerScreen() {
 
         <div className="computer-left-size">
             <div className="computer-logo">
-                <img src={logo} alt="logo"/>
+                <Link to="/">
+                    <img src={logo} alt="logo"/>
+                </Link>
             </div>
         </div>
 
@@ -119,5 +121,4 @@ function NavBarComputerScreen() {
 export default NavBarComputerScreen;
 
 
-// <Responsive {...Responsive.onlyTablet}>Tablet</Responsive>
 
