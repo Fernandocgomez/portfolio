@@ -1,36 +1,36 @@
-.computer-about-section-container {
+.tablet-about-section-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 3rem 3rem;
 }
 
-.computer-about-section-img {
+.tablet-about-section-img {
     display: flex;  
     justify-content: center;
     padding-bottom: 1rem;
 }
 
-.computer-about-section-img img {
-    width: 35%;
+.tablet-about-section-img img {
+    width: 30%;
     border-radius: 50%;
     border: solid 1px #fff;
 }
 
-.computer-about-section-name h2 {
+.tablet-about-section-name h2 {
     color: #fff;
     text-align: center;
     padding-bottom: 3rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-bottom: 1rem;
 }
 
-.computer-about-section-bio {
-    width: 60%;
+.tablet-about-section-bio {
+    width: 80%;
 }
 
-.computer-about-section-bio p {
-    font-size: 1.5rem;
+.tablet-about-section-bio p {
+    font-size: 1rem;
     color: #fff;
     text-align: center;
 }
