@@ -3,6 +3,7 @@ import './Home.css';
 import HeroSectionComputerScreen from '../HeroSectionComputerScreen/HeroSectionComputerScreen';
 import HeroSectionTabletScreen from '../HeroSectionTabletScreen/HeroSectionTabletScreen';
 import HeroSectionMobileScreen from '../HeroSectionMobileScreen/HeroSectionMobileScreen';
+import AboutSectionComputerScreen from '../AboutSectionComputerScreen/AboutSectionComputerScreen';
 
 
 function Home() {
@@ -15,7 +16,7 @@ function Home() {
           <HeroSectionMobileScreen />
         </div>
         <div className="about-section-container">
-
+          <AboutSectionComputerScreen />
         </div>
         <div className="portfolio-section-container">
 
