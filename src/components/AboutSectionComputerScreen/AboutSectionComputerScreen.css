@@ -2,12 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin: 3rem 3rem;
 }
 
 .computer-about-section-img {
-    display: flex;
+    display: flex;  
     justify-content: center;
     padding-bottom: 1rem;
 }
@@ -28,8 +27,8 @@
 }
 
 
-.computer-about-section-bi {
-    width: 75%;
+.computer-about-section-bio {
+    width: 60%;
 }
 
 .computer-about-section-bio p {
