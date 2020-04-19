@@ -16,8 +16,8 @@
 .computer-hero-icons-container {
     border: solid 1px rgba(140, 140, 140, 1);
     background-color: rgba(140, 140, 140, .1);
-    border-radius: 5px;
-    width: 60%;
+    border-radius: 10px;
+    width: 80%;
 }
 
 .computer-hero-icons {

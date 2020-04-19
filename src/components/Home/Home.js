@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css';
 import HeroSectionComputerScreen from '../HeroSectionComputerScreen/HeroSectionComputerScreen';
 import HeroSectionTabletScreen from '../HeroSectionTabletScreen/HeroSectionTabletScreen';
+import HeroSectionMobileScreen from '../HeroSectionMobileScreen/HeroSectionMobileScreen';
 
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
         <div className="hero-section-container">
           <HeroSectionComputerScreen />
           <HeroSectionTabletScreen />
+          <HeroSectionMobileScreen />
         </div>
         <div className="about-section-container">
 
