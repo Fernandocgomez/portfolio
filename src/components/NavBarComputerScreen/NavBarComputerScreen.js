@@ -32,11 +32,11 @@ function NavBarComputerScreen() {
                     about: false, 
                     contact: true
                 })
-            case "contact":
+            case "logo":
                 return setState({
                     projects: false, 
                     about: false, 
-                    contact: true
+                    contact: false
                 })
             default:
                 return setState({
