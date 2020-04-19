@@ -32,6 +32,12 @@ function NavBarComputerScreen() {
                     about: false, 
                     contact: true
                 })
+            case "contact":
+                return setState({
+                    projects: false, 
+                    about: false, 
+                    contact: true
+                })
             default:
                 return setState({
                     projects: false, 
@@ -42,6 +48,7 @@ function NavBarComputerScreen() {
     }, []);
 
     let handleClick = (e) => {
+        console.log(e.target.name)
         switch(e.target.name) {
             case "projects":
                 localStorage.setItem( 'SelectedOption', "projects"); 
@@ -64,6 +71,13 @@ function NavBarComputerScreen() {
                     about: false, 
                     contact: true
                 })
+            case "logo":
+                localStorage.setItem( 'SelectedOption', "logo"); 
+                return setState({
+                    projects: false, 
+                    about: false, 
+                    contact: false
+                })
             default:
                 return setState({
                     projects: false, 
@@ -81,8 +95,8 @@ function NavBarComputerScreen() {
 
         <div className="computer-left-size">
             <div className="computer-logo">
-                <Link to="/" onClick={(e) => handleClick(e)}>
-                    <img src={logo} alt="logo"/>
+                <Link to="/" onClick={(e) => handleClick(e)} >
+                    <img src={logo} alt="logo" name="logo"/>
                 </Link>
             </div>
         </div>
