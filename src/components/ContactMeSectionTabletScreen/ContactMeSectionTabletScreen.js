@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import './ContactMeSectionComputerScreen.css';
+import './ContactMeSectionTabletScreen.css';
 import { Responsive} from "semantic-ui-react";
 
-function ContactMeSectionComputerScreen() {
+function ContactMeSectionTabletScreen() {
   useEffect(() => {
     setStatus(false)
   }, []);
@@ -28,45 +28,44 @@ function ContactMeSectionComputerScreen() {
     };
     xhr.send(data);
   }
-  
 
   return (
-    <Responsive {...Responsive.onlyComputer}>
-      <div className="computer-contact-me-section-container">
-        <div className="computer-contact-me-section-text-container">
+    <Responsive {...Responsive.onlyTablet}>
+      <div className="tablet-contact-me-section-container">
+        <div className="tablet-contact-me-section-text-container">
           <h2>Hire Me</h2>
           <p>Hello there,</p>
           <p>If you want to connect with me, just fill out the form on the right size.</p>
           <p>I do my best to answer my emails as soon as possiable, however, if you want to get in contact with me faster, just dail:</p>
           <p>(346) 260-0832</p>
         </div>
-        <div className="computer-contact-me-section-form-container">
+        <div className="tablet-contact-me-section-form-container">
           {status ? (<div>Message has been sent!</div>) : (<></>)}
           <form
           onSubmit={submitForm}
           action="https://formspree.io/xbjavewj"
           method="POST"
           >
-            <label htmlFor="computer-contact-me-section-form-container-your-name">Your Name:</label>
+            <label htmlFor="tablet-contact-me-section-form-container-your-name">Your Name:</label>
             <input type="text" 
-            id="computer-contact-me-section-form-container-your-name" 
+            id="tablet-contact-me-section-form-container-your-name" 
             placeholder="Jane Smith"
             name="Name"
             required
             />
 
-            <label htmlFor="computer-contact-me-section-form-container-your-email">Your Email:</label>
+            <label htmlFor="tablet-contact-me-section-form-container-your-email">Your Email:</label>
 
             <input type="email" 
-            id="computer-contact-me-section-form-container-your-email"
+            id="tablet-contact-me-section-form-container-your-email"
             placeholder="janesmith@live.com"
             name="email"
             required
             />
-            <label htmlFor="computer-contact-me-section-form-container-your-message">Your Message:</label>
+            <label htmlFor="tablet-contact-me-section-form-container-your-message">Your Message:</label>
 
             <input type="text" 
-            id="computer-contact-me-section-form-container-your-message"
+            id="tablet-contact-me-section-form-container-your-message"
             placeholder="Your message..."
             name="message"
             required
@@ -79,4 +78,4 @@ function ContactMeSectionComputerScreen() {
   )
 }
 
-export default ContactMeSectionComputerScreen
+export default ContactMeSectionTabletScreen

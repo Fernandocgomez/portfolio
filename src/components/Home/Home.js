@@ -10,6 +10,7 @@ import ProjectsSectionComputerScreen from '../ProjectsSectionComputerScreen/Proj
 import ProjectsSectionTabletScreen from '../ProjectsSectionTabletScreen/ProjectsSectionTabletScreen';
 import ProjectsSectionMobileScreen from '../ProjectsSectionMobileScreen/ProjectsSectionMobileScreen';
 import ContactMeSectionComputerScreen from '../ContactMeSectionComputerScreen/ContactMeSectionComputerScreen';
+import ContactMeSectionTabletScreen from '../ContactMeSectionTabletScreen/ContactMeSectionTabletScreen';
 
 
 function Home() {
@@ -33,6 +34,7 @@ function Home() {
         </div>
         <div className="hire-me-section-container">
           <ContactMeSectionComputerScreen />
+          <ContactMeSectionTabletScreen />
         </div>
       </div>
     </div>
