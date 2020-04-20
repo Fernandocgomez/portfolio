@@ -9,6 +9,7 @@ import AboutSectionMobileScreen from '../AboutSectionMobileScreen/AboutSectionMo
 import ProjectsSectionComputerScreen from '../ProjectsSectionComputerScreen/ProjectsSectionComputerScreen';
 import ProjectsSectionTabletScreen from '../ProjectsSectionTabletScreen/ProjectsSectionTabletScreen';
 import ProjectsSectionMobileScreen from '../ProjectsSectionMobileScreen/ProjectsSectionMobileScreen';
+import ContactMeSectionComputerScreen from '../ContactMeSectionComputerScreen/ContactMeSectionComputerScreen';
 
 
 function Home() {
@@ -30,11 +31,8 @@ function Home() {
           <ProjectsSectionTabletScreen />
           <ProjectsSectionMobileScreen />
         </div>
-        <div className="skills-section-container">
-
-        </div>
         <div className="hire-me-section-container">
-
+          <ContactMeSectionComputerScreen />
         </div>
       </div>
     </div>

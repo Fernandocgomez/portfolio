@@ -1,0 +1,82 @@
+.computer-contact-me-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    min-height: 30vh;
+    padding: 2rem 0 2rem 0;
+}
+
+.computer-contact-me-section-text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%
+}
+
+.computer-contact-me-section-text-container h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+
+}
+
+.computer-contact-me-section-text-container p {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: .3rem;
+
+}
+
+.computer-contact-me-section-form-container {
+    width: 40%;
+}
+
+.computer-contact-me-section-form-container div {
+    color: #0b8457;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.computer-contact-me-section-form-container form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.computer-contact-me-section-form-container form label{
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+
+.computer-contact-me-section-form-container form input{
+    border-radius: .5rem;
+    margin: .8rem 0 .8rem 0;
+    padding: .5rem 0 .5rem 0;
+    border: none;
+    outline-width: 0;
+    font-size: 1rem;
+    padding-left: .5rem;
+}
+
+.computer-contact-me-section-form-container form input:nth-child(6){
+    padding-bottom: 5rem;
+}
+
+.computer-contact-me-section-form-container button{
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #0b8457;
+    border-radius: 2rem;
+    border: none;
+    padding: .5rem;
+    margin-top: .5rem;
+    width: 30%;
+    align-self: flex-end;
+}
+
+.computer-contact-me-section-form-container button:hover {
+    background-color: #11b87a;
+    cursor: pointer;
+}
