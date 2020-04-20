@@ -9,6 +9,7 @@ import shopify from "../../assets/shopify.png";
 import arGourmet from "../../assets/ar-gourmet.png";
 import arrow from "../../assets/down-arrow.png";
 import { Link } from "react-router-dom";
+import { Swipeable } from "react-swipeable";
 
 function ProjectsSectionTabletScreen() {
 
@@ -88,9 +89,11 @@ function ProjectsSectionTabletScreen() {
           <div className="tablet-project-section-left-arrow">
             <img src={arrow} alt="left arrow icon" onClick={leftArrow}/>
           </div>
+          <Swipeable onSwipedRight={rightArrow} onSwipedLeft={leftArrow}>
           <div className="tablet-project-section-img">
             <img src={projects[number].picture} alt="project" />
           </div>
+          </Swipeable>
           <div className="tablet-project-section-right-arrow">
             <img src={arrow} alt="right arrow icon" onClick={rightArrow} />
           </div>
