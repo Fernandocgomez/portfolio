@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "./ProjectsSectionComputerScreen.css";
+import React, { useState } from 'react'
+import './ProjectsSectionTabletScreen.css';
 import { Responsive } from "semantic-ui-react";
 import cryptoProject from "../../assets/crypto-project.png";
 import findDanceProject from "../../assets/find-dance-project.png";
@@ -10,8 +10,8 @@ import arGourmet from "../../assets/ar-gourmet.png";
 import arrow from "../../assets/down-arrow.png";
 import { Link } from "react-router-dom";
 
-function ProjectsSectionComputerScreen() {
-  // if you want to add another project mae sure to adapt the function leftArrow
+function ProjectsSectionTabletScreen() {
+
   let [number, setNumber] = useState(0)
   let [projects, setProjects] = useState([
     {
@@ -79,32 +79,32 @@ function ProjectsSectionComputerScreen() {
   }
 
   return (
-    <Responsive {...Responsive.onlyComputer}>
-      <div className="computer-projects-section-conatiner">
-        <div className="computer-projects-section-heading">
+    <Responsive {...Responsive.onlyTablet}>
+      <div className="tablet-projects-section-conatiner">
+        <div className="tablet-projects-section-heading">
           <h2>Portfolio</h2>
         </div>
-        <div className="computer-project-section-img-carousel">
-          <div className="computer-project-section-left-arrow">
+        <div className="tablet-project-section-img-carousel">
+          <div className="tablet-project-section-left-arrow">
             <img src={arrow} alt="left arrow icon" onClick={leftArrow}/>
           </div>
-          <div className="computer-project-section-img">
+          <div className="tablet-project-section-img">
             <img src={projects[number].picture} alt="project" />
           </div>
-          <div className="computer-project-section-right-arrow">
+          <div className="tablet-project-section-right-arrow">
             <img src={arrow} alt="right arrow icon" onClick={rightArrow} />
           </div>
         </div>
-        <div className="computer-project-section-description-container">
+        <div className="tablet-project-section-description-container">
           <h3>{projects[number].projectName}</h3>
           <p>
           {projects[number].projectDescription}
           </p>
-          <Link to={projects[number].ProjectLink} className="computer-project-section-btn">Find Out More About This Project</Link>
+          <Link to={projects[number].ProjectLink} className="tablet-project-section-btn">Find Out More About This Project</Link>
         </div>
       </div>
     </Responsive>
-  );
+  )
 }
 
-export default ProjectsSectionComputerScreen;
+export default ProjectsSectionTabletScreen
