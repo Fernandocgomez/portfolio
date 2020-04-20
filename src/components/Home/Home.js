@@ -6,6 +6,7 @@ import HeroSectionMobileScreen from '../HeroSectionMobileScreen/HeroSectionMobil
 import AboutSectionComputerScreen from '../AboutSectionComputerScreen/AboutSectionComputerScreen';
 import AboutSectionTabletScreen from '../AboutSectionTabletScreen/AboutSectionTabletScreen';
 import AboutSectionMobileScreen from '../AboutSectionMobileScreen/AboutSectionMobileScreen';
+import ProjectsSectionComputerScreen from '../ProjectsSectionComputerScreen/ProjectsSectionComputerScreen';
 
 
 function Home() {
@@ -23,7 +24,7 @@ function Home() {
           <AboutSectionMobileScreen />
         </div>
         <div className="portfolio-section-container">
-
+          <ProjectsSectionComputerScreen />
         </div>
         <div className="skills-section-container">
 

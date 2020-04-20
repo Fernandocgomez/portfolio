@@ -1,0 +1,87 @@
+.computer-projects-section-conatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.computer-projects-section-heading h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 3rem 0 2rem 0;
+}
+
+.computer-project-section-img-carousel {
+    display: flex;
+    align-items: center;
+}
+
+.computer-project-section-left-arrow, .computer-project-section-right-arrow{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.computer-project-section-img {
+    display: flex;
+    justify-content: center;
+} 
+
+.computer-project-section-left-arrow img {
+    width: 5rem;
+    -webkit-transform: rotate(90deg);
+}
+
+.computer-project-section-img img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+.computer-project-section-right-arrow img {
+    width: 5rem;
+    -webkit-transform: rotate(-90deg);
+}
+
+.computer-project-section-left-arrow img:hover, .computer-project-section-right-arrow img:hover {
+    cursor: pointer;
+}
+
+.computer-project-section-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.computer-project-section-description-container h3 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+}
+
+.computer-project-section-description-container p {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.computer-project-section-description-container .computer-project-section-btn {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #0b8457;
+    border-radius: 2rem;
+    border: none;
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+}
+
+.computer-project-section-description-container .computer-project-section-btn:hover {
+    background-color: #11b87a;
+    cursor: pointer;
+}
