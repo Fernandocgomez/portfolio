@@ -1,0 +1,49 @@
+.tablet-screen-footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2b28;
+    color: #ffffff;
+}
+
+.tablet-screen-sub-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: solid .5px #ffffff;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.tablet-screen-contact-info span {
+    font-weight: 700;
+    margin-right: .5rem;
+}
+
+.tablet-screen-contact-info h2, .tablet-screen-site-map h2 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.tablet-screen-site-map {
+    display: flex;
+    flex-direction: column;
+}
+
+.tablet-screen-site-map .tablet-screen-site-map-link{
+    color: #ffffff;
+    padding: .1rem 0 .1rem 0
+}
+
+.tablet-screen-site-map .tablet-screen-site-map-link:hover {
+    text-decoration: underline;
+}
+
+.tablet-screen-footer {
+    border-top: solid 1px #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.tablet-screen-footer p {
+    padding: .5rem 0 .5rem 0;
+    margin-left: 2rem;
+}
