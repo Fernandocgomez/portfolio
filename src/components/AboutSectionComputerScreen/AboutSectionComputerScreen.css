@@ -13,6 +13,7 @@
 
 .computer-about-section-img img {
     width: 35%;
+    height: 35%;
     border-radius: 50%;
     border: solid 1px #fff;
 }
@@ -21,7 +22,7 @@
     color: #fff;
     text-align: center;
     padding-bottom: 3rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -30,7 +31,7 @@
 }
 
 .computer-about-section-bio p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fff;
     text-align: center;
 }

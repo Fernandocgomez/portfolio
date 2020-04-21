@@ -30,18 +30,21 @@
 } 
 
 .tablet-project-section-left-arrow img {
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
     -webkit-transform: rotate(90deg);
 }
 
 .tablet-project-section-img img {
+    height: 100%;
     width: 100%;
     border-radius: 1rem;
 }
 
 
 .tablet-project-section-right-arrow img {
-    width: 3rem;
+    height: 2.5rem;
+    width: 2..5rem;
     -webkit-transform: rotate(-90deg);
 }
 

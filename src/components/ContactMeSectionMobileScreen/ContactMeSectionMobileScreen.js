@@ -7,8 +7,6 @@ function ContactMeSectionMobileScreen() {
     setStatus(false)
   }, []);
   const [status, setStatus] = useState(false)
-  console.log(status)
-
 
   let submitForm = (ev) => {
     ev.preventDefault();

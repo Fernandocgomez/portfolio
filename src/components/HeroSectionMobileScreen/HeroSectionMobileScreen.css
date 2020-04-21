@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10%;
-    min-height: 50vh;
+    min-height: 80vh;
 }
 
 .mobile-hero-heading {
@@ -75,7 +75,7 @@
 
 .mobile-hero-bottom-arrow-container {
     padding-top: 5rem;
-    -webkit-animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce .5s infinite alternate;
 }
 
 .mobile-hero-bottom-arrow-container img {

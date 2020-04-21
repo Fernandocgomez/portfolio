@@ -8,7 +8,7 @@
 }
 
 .computer-projects-section-heading h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #fff;
     padding: 3rem 0 2rem 0;
 }
@@ -30,18 +30,21 @@
 } 
 
 .computer-project-section-left-arrow img {
-    width: 5rem;
+    height: 2.5rem;
+    width: 2.5rem;
     -webkit-transform: rotate(90deg);
 }
 
 .computer-project-section-img img {
+    height: 100%;
     width: 100%;
     border-radius: 1rem;
 }
 
 
 .computer-project-section-right-arrow img {
-    width: 5rem;
+    height: 2.5rem;
+    width: 2.5rem;
     -webkit-transform: rotate(-90deg);
 }
 
@@ -53,29 +56,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 80%;
 }
 
 .computer-project-section-description-container h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fff;
     text-align: center;
     padding: 2rem 0 1rem 0;
 }
 
 .computer-project-section-description-container p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fff;
     text-align: center;
 }
 
 .computer-project-section-description-container .computer-project-section-btn {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fff;
     background-color: #0b8457;
     border-radius: 2rem;
     border: none;
-    width: 50%;
+    width: 35%;
     padding: 1rem;
     margin: 1rem 0 2rem 0;
     text-align: center;

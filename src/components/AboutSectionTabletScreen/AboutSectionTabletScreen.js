@@ -8,7 +8,7 @@ function AboutSectionTabletScreen() {
     <Responsive {...Responsive.onlyTablet}>
       <div className="tablet-about-section-container">
         <div className="tablet-about-section-img">
-          <img src={profilePicture} alt="Profile Picture" />
+          <img src={profilePicture} alt="Profile" />
         </div>
         <div className="tablet-about-section-name">
           <h2>About me</h2>

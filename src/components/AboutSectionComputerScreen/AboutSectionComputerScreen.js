@@ -8,7 +8,7 @@ function AboutSectionComputerScreen() {
     <Responsive {...Responsive.onlyComputer}>
       <div className="computer-about-section-container">
         <div className="computer-about-section-img">
-          <img src={profilePicture} alt="Profile Picture" />
+          <img src={profilePicture} alt="Profile" />
         </div>
         <div className="computer-about-section-name">
           <h2>About me</h2>

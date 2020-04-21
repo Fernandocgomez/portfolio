@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 function ProjectsSectionComputerScreen() {
   // if you want to add another project mae sure to adapt the function leftArrow
   let [number, setNumber] = useState(0)
-  let [projects, setProjects] = useState([
+  let [projects] = useState([
     {
       picture: findDanceProject,
       projectName: "Find Dance", 
@@ -75,6 +75,8 @@ function ProjectsSectionComputerScreen() {
         return setNumber(3)
       case 5:
         return setNumber(4)
+      default:
+        return setNumber(0)
     }
   }
 

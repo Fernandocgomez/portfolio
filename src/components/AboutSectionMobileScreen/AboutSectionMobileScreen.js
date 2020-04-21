@@ -8,7 +8,7 @@ function AboutSectionMobileScreen() {
     <Responsive {...Responsive.onlyMobile}>
       <div className="mobile-about-section-container">
         <div className="mobile-about-section-img">
-          <img src={profilePicture} alt="Profile Picture" />
+          <img src={profilePicture} alt="Profile" />
         </div>
         <div className="mobile-about-section-name">
           <h2>About me</h2>

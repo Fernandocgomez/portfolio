@@ -12,7 +12,7 @@ import { Swipeable } from "react-swipeable";
 
 function ProjectsSectionMobileScreen() {
   let [number, setNumber] = useState(0);
-  let [projects, setProjects] = useState([
+  let [projects] = useState([
     {
       picture: findDanceProject,
       projectName: "Find Dance",
@@ -79,6 +79,8 @@ function ProjectsSectionMobileScreen() {
         return setNumber(3);
       case 5:
         return setNumber(4);
+        default:
+      return setNumber(0)
     }
   };
   return (

@@ -13,6 +13,7 @@
 
 .mobile-about-section-img img {
     width: 40%;
+    height: 40%;
     border-radius: 50%;
     border: solid 1px #fff;
 }
