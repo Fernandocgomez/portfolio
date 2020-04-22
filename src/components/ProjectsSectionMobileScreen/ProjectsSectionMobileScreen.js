@@ -40,21 +40,7 @@ function ProjectsSectionMobileScreen() {
       projectDescription:
         "Is a mobile and web app designed to help restaurants to give an awesome experience to their customers, and to help their customers to make the best choice when ordering their food. The idea was born thanks to my many of my bad experiences and my friends’ many bad experiences, going to restaurants and ordering food to be served with something totally unexpected.",
       ProjectLink: "/projects/ar-gourmet",
-    },
-    {
-      picture: shopify,
-      projectName: "Shopify Theme Detector",
-      projectDescription:
-        "Is a web app designed to help drop shippers and Shopify developers to find out the name of the theme a particular Shopify store is using.",
-      ProjectLink: "/projects/shopify-theme-detector",
-    },
-    {
-      picture: chess,
-      projectName: "Top 100 Chess Players",
-      projectDescription:
-        "Is a web app that lists the top 100 chess master in the world. You can see every single player's stats since the beginning of their career and make comments about it.",
-      ProjectLink: "/projects/top-100-chess-players",
-    },
+    }
   ]);
 
   let rightArrow = () => {
@@ -68,21 +54,22 @@ function ProjectsSectionMobileScreen() {
   let leftArrow = () => {
     switch (number) {
       case 0:
-        return setNumber(5);
+        return setNumber(3);
       case 1:
         return setNumber(0);
       case 2:
         return setNumber(1);
       case 3:
         return setNumber(2);
-      case 4:
-        return setNumber(3);
-      case 5:
-        return setNumber(4);
         default:
       return setNumber(0)
     }
   };
+
+  function scrollUp() {
+    window.scrollTo(0, 0)
+  }
+
   return (
     <Responsive {...Responsive.onlyMobile}>
       <div className="mobile-projects-section-conatiner">
@@ -102,6 +89,7 @@ function ProjectsSectionMobileScreen() {
           <Link
             to={projects[number].ProjectLink}
             className="mobile-project-section-btn"
+            onClick={scrollUp}
           >
             Find Out More About This Project
           </Link>

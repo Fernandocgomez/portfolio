@@ -7,8 +7,8 @@ import ProjectPageComputerScreen from './components/ProjectPageComputerScreen/Pr
 import { findDanceProject } from './components/ProjectsObjects/FindDance';
 import { arGourmetProject } from './components/ProjectsObjects/ArGourmet';
 import { findMeANewHome } from './components/ProjectsObjects/FindMeANewHome';
-
-
+import ProjectPageTabletScreen from './components/ProjectPageTabletScreen/ProjectPageTabletScreen';
+import ProjectPageMobileScreen from './components/ProjectPageMobileScreen/ProjectPageMobileScreen';
 
 
 function App() {
@@ -24,14 +24,21 @@ function App() {
 
         <Route exact path="/projects/find-dance">
           <ProjectPageComputerScreen obj={findDanceProject}/>
+          <ProjectPageTabletScreen obj={findDanceProject} />
+          <ProjectPageMobileScreen obj={findDanceProject} />
+
         </Route>
 
         <Route exact path="/projects/ar-gourmet">
           <ProjectPageComputerScreen obj={arGourmetProject}/>
+          <ProjectPageTabletScreen obj={arGourmetProject} />
+          <ProjectPageMobileScreen obj={arGourmetProject} />
         </Route>
 
         <Route exact path="/projects/find-me-a-home">
           <ProjectPageComputerScreen obj={findMeANewHome}/>
+          <ProjectPageTabletScreen obj={findMeANewHome} />
+          <ProjectPageMobileScreen obj={findMeANewHome} />
         </Route>
 
 

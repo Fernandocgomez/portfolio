@@ -2,7 +2,7 @@ import React from 'react'
 import './ProjectPageMobileScreen.css';
 import { Responsive } from 'semantic-ui-react';
 
-function ProjectPageMobileScreen() {
+function ProjectPageMobileScreen(props) {
   return (
     <Responsive {...Responsive.onlyMobile}>
       
