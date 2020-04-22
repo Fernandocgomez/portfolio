@@ -5,6 +5,8 @@ import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import ProjectPageComputerScreen from './components/ProjectPageComputerScreen/ProjectPageComputerScreen';
 import { findDanceProject } from './components/ProjectsObjects/FindDance';
+import { arGourmetProject } from './components/ProjectsObjects/ArGourmet';
+
 
 
 function App() {
@@ -20,6 +22,10 @@ function App() {
 
         <Route exact path="/projects/find-dance">
           <ProjectPageComputerScreen obj={findDanceProject}/>
+        </Route>
+
+        <Route exact path="/projects/ar-gourmet">
+          <ProjectPageComputerScreen obj={arGourmetProject}/>
         </Route>
 
 
