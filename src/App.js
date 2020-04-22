@@ -11,6 +11,7 @@ import ProjectPageTabletScreen from './components/ProjectPageTabletScreen/Projec
 import ProjectPageMobileScreen from './components/ProjectPageMobileScreen/ProjectPageMobileScreen';
 import AboutSectionComputerScreen from './components/AboutSectionComputerScreen/AboutSectionComputerScreen';
 import About from './components/About/About';
+import ContactMe from './components/ContactMe/ContactMe';
 
 
 function App() {
@@ -47,6 +48,9 @@ function App() {
           <About />
         </Route>
 
+        <Route exact path="/contact-me">
+          <ContactMe />
+        </Route>
 
 
       </Switch>

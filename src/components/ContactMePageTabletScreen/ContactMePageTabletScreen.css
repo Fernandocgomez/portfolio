@@ -1,0 +1,95 @@
+.tablet-contact-me-page-container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.tablet-contact-me-page-text {
+    margin-bottom: 2rem;
+}
+
+
+.tablet-contact-me-page-text h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem 0 .75rem 0;
+}
+
+.tablet-contact-me-page-text h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #0b8457;
+}
+
+
+.tablet-contact-me-page-form {
+    width: 80%;
+}
+
+.tablet-contact-me-page-top-inputs {
+    display: flex;
+}
+
+.tablet-contact-me-page-name, .tablet-contact-me-page-email {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tablet-contact-me-page-name label, .tablet-contact-me-page-email label,  .tablet-contact-me-page-bottom-input label{
+    font-size: 1rem;
+}
+
+.tablet-contact-me-page-name {
+    margin-right: .5rem;
+}
+
+.tablet-contact-me-page-email {
+    margin-left: .5rem;
+}
+
+.tablet-contact-me-page-name input, .tablet-contact-me-page-email input,  .tablet-contact-me-page-bottom-input input {
+    border-radius: .25rem;
+    padding: .90rem 0 .90rem 0;
+    border: solid 1px lightgray;
+    outline-width: 0;
+    font-size: 1rem;
+    padding-left: .5rem;
+    margin: .75rem 0 .75rem 0;
+}
+
+.tablet-contact-me-page-bottom-input input {
+    padding-bottom: 8rem;
+}
+
+
+.tablet-contact-me-page-bottom-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.tablet-contact-me-page-button {
+    display: flex;
+    justify-content: center;
+}
+
+.tablet-contact-me-page-button button {
+    font-size: 1rem;
+    color: #0b8457;
+    background-color: #fff;
+    border-radius: 2rem;
+    border: solid 1.5px #0b8457;
+    padding: .75rem;
+    margin: 1rem 0 0 0;
+    width: 30%;
+}
+
+
+.tablet-contact-me-page-button button:hover {
+    background-color: #0b8457;
+    color: #fff;
+    cursor: pointer;
+}

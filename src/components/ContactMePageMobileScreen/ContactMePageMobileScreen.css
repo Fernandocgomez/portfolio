@@ -1,0 +1,82 @@
+.mobile-contact-me-page-container {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.mobile-contact-me-page-text {
+    margin-bottom: 2rem;
+}
+
+
+.mobile-contact-me-page-text h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem 0 .75rem 0;
+}
+
+.mobile-contact-me-page-text h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #0b8457;
+}
+
+
+.mobile-contact-me-page-form {
+    width: 90%;
+}
+
+.mobile-contact-me-page-top-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-contact-me-page-name, .mobile-contact-me-page-email {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mobile-contact-me-page-name label, .mobile-contact-me-page-email label,  .mobile-contact-me-page-bottom-input label{
+    font-size: 1rem;
+}
+
+
+.mobile-contact-me-page-name input, .mobile-contact-me-page-email input,  .mobile-contact-me-page-bottom-input input {
+    border-radius: .25rem;
+    padding: .90rem 0 .90rem 0;
+    border: solid 1px lightgray;
+    outline-width: 0;
+    font-size: 1rem;
+    padding-left: .5rem;
+    margin: .75rem 0 .75rem 0;
+}
+
+.mobile-contact-me-page-bottom-input input {
+    padding-bottom: 6rem;
+}
+
+
+.mobile-contact-me-page-bottom-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-contact-me-page-button {
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-contact-me-page-button button {
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #0b8457;
+    border-radius: 2rem;
+    border: none;
+    padding: .75rem;
+    margin: 1rem 0 0 0;
+    width: 50%;
+}
