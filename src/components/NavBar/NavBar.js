@@ -34,7 +34,15 @@ function NavBar() {
           width={220}
         >
           <Link
-            to="projects"
+            to="/"
+            className="NavBar-nav-links"
+            onClick={burgerMenuToggle}
+          >
+            Home
+          </Link>
+
+          <Link
+            to="/projects"
             className="NavBar-nav-links"
             onClick={burgerMenuToggle}
           >
@@ -42,7 +50,7 @@ function NavBar() {
           </Link>
 
           <Link
-            to="about"
+            to="/about"
             className="NavBar-nav-links"
             onClick={burgerMenuToggle}
           >

@@ -53,7 +53,9 @@ function ProjectPageTabletScreen(props) {
           frameBorder="0" 
           allowFullScreen 
           allow="autoplay;"
-          autoPlay="0"/>
+          autoPlay="0"
+          title="project demo"
+          />
         </div>
 
         <div className="tablet-screen-project-page-des">

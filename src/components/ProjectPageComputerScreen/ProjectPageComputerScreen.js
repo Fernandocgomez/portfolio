@@ -1,7 +1,6 @@
 import React from 'react'
 import './ProjectPageComputerScreen.css';
 import { Responsive } from 'semantic-ui-react';
-import github from '../../assets/github.png'
 
 
 function ProjectPageComputerScreen(props) {
@@ -58,7 +57,9 @@ function ProjectPageComputerScreen(props) {
           frameBorder="0" 
           allowFullScreen 
           allow="autoplay;"
-          autoPlay="0"/>
+          autoPlay="0"
+          title="project demo"
+          />
         </div>
 
         <div className="computer-screen-project-page-des">

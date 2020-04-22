@@ -1,0 +1,36 @@
+.tablet-screen-about-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    padding-bottom: 2rem;
+}
+
+.tablet-screen-about-img {
+    width: 100%;
+}
+
+.tablet-screen-about-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.tablet-screen-about-bio {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.tablet-screen-about-text {
+    width: 90%;
+    margin: auto;
+}
+
+.tablet-screen-about-text h1 {
+    font-size: 2rem;
+}
+
+.tablet-screen-about-text p {
+    font-size: 1rem;
+}

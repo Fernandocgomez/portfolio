@@ -1,0 +1,36 @@
+.mobile-screen-about-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mobile-screen-about-img {
+    width: 100%;
+}
+
+.mobile-screen-about-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.mobile-screen-about-bio {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 2rem 0 2rem 0;
+
+}
+
+.mobile-screen-about-text {
+    width: 90%;
+    margin: auto;
+}
+
+.mobile-screen-about-text h1 {
+    font-size: 2rem;
+}
+
+.mobile-screen-about-text p {
+    font-size: 1rem;
+}

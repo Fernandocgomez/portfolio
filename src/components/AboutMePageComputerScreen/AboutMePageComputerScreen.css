@@ -1,0 +1,33 @@
+.computer-screen-about-container {
+    display: flex;
+    min-height: 90vh;
+}
+
+.computer-screen-about-img {
+    width: 100%;
+}
+
+.computer-screen-about-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.computer-screen-about-bio {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.computer-screen-about-text {
+    width: 90%;
+    margin: auto;
+}
+
+.computer-screen-about-text h1 {
+    font-size: 3rem;
+}
+
+.computer-screen-about-text p {
+    font-size: 1.2rem;
+}
