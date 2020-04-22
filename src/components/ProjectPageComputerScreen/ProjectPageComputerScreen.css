@@ -28,6 +28,11 @@
     padding: 1rem 0 1rem 0;
 }
 
+.computer-screen-project-page-des {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
 .computer-screen-project-page-back-end-list ul, .computer-screen-project-page-front-end-list ul, .computer-screen-project-page-des p{
     font-size: 1.2rem;
 }
