@@ -6,14 +6,46 @@ let wireframeSearchPage = 'https://camo.githubusercontent.com/51da62df86a9408688
 let wireframeSearchResults = 'https://camo.githubusercontent.com/b91221e9da3f32a321d49c8717c6e52ed33d4b8f/68747470733a2f2f692e696d6775722e636f6d2f77736d4e4a6c5a2e706e67'
 
 export const findDanceProject = {
-    mainImg: homePage, 
+    videoId: "8Ur2YyLZf3k", 
     title: "Find Dance", 
     des: "This is a web app designed to help dancers and people interested in dancing to find nearby social dancing events. The app was built based on the same concept of Trivago and Expedia. In seconds, the app will scan and scrap EventBrite, Groupon and MeetUp to gather all the best social dancing on the USA and sort them by area.",
     frontEnd: ["React JS", "React Router", "HTML", "CSS"], 
     backEnd: ["Ruby on Rails", "SQLite", "MVC", "Nokogiri"], 
-    github: "https://github.com/Fernandocgomez/FindDance", 
-    youtube: "https://youtu.be/8Ur2YyLZf3k", 
-    imgs: [homePage, searchResults, eventPage, wireframeHomePage, wireframeSearchResults, wireframeSearchPage], 
-    imgLabel: ["Home Page", "Search Results", "Event Page", "Wireframe Home Page", "Wireframe Search Results", "Wireframe Event Page"]
+    mobile: undefined,
+    links: [
+        {
+            link: "https://github.com/Fernandocgomez/FindDance", 
+            label: "Github",
+            icon: "github icon huge"
+        }, {}, {}
+    ], 
+    imgs: [
+        {
+            imageUrl: homePage, 
+            label: "Home Page"
+        },
+        {
+            imageUrl: searchResults, 
+            label: "Search Results"
+        },
+        {
+            imageUrl: eventPage, 
+            label: "Event Page"
+        }
+    ],
+    imgsWireframe: [
+        {
+            imageUrl: wireframeHomePage, 
+            label: "Wireframe Home Page"  
+        },
+        {
+            imageUrl: wireframeSearchResults, 
+            label: "Wireframe Search Results"  
+        },
+        {
+            imageUrl: wireframeSearchPage, 
+            label: "Wireframe Event Page"  
+        } 
+    ]
 
 }
