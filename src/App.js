@@ -9,10 +9,11 @@ import { arGourmetProject } from './components/ProjectsObjects/ArGourmet';
 import { findMeANewHome } from './components/ProjectsObjects/FindMeANewHome';
 import ProjectPageTabletScreen from './components/ProjectPageTabletScreen/ProjectPageTabletScreen';
 import ProjectPageMobileScreen from './components/ProjectPageMobileScreen/ProjectPageMobileScreen';
-import AboutSectionComputerScreen from './components/AboutSectionComputerScreen/AboutSectionComputerScreen';
 import About from './components/About/About';
 import ContactMe from './components/ContactMe/ContactMe';
 import Projects from './components/Projects/Projects';
+import { cryptoSimulador } from './components/ProjectsObjects/CryptoSimulator';
+
 
 
 function App() {
@@ -43,6 +44,12 @@ function App() {
           <ProjectPageComputerScreen obj={findMeANewHome}/>
           <ProjectPageTabletScreen obj={findMeANewHome} />
           <ProjectPageMobileScreen obj={findMeANewHome} />
+        </Route>
+
+        <Route exact path="/projects/crypto-trading-simulator">
+          <ProjectPageComputerScreen obj={cryptoSimulador}/>
+          <ProjectPageTabletScreen obj={cryptoSimulador} />
+          <ProjectPageMobileScreen obj={cryptoSimulador} />
         </Route>
 
         <Route exact path="/about">
