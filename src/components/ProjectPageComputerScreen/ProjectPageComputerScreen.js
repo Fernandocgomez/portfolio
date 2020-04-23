@@ -5,6 +5,8 @@ import { Responsive } from 'semantic-ui-react';
 
 function ProjectPageComputerScreen(props) {
 
+
+
   const obj = props.obj
   console.log('obj', obj)
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import './Home.css';
 import HeroSectionComputerScreen from '../HeroSectionComputerScreen/HeroSectionComputerScreen';
 import HeroSectionTabletScreen from '../HeroSectionTabletScreen/HeroSectionTabletScreen';
@@ -15,6 +15,9 @@ import ContactMeSectionMobileScreen from '../ContactMeSectionMobileScreen/Contac
 
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="home-container">

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import './About.css';
 import AboutMePageComputerScreen from '../AboutMePageComputerScreen/AboutMePageComputerScreen'
 import AboutMePageTabletScreen from '../AboutMePageTabletScreen/AboutMePageTabletScreen'
@@ -7,6 +7,9 @@ import AboutMePageMobileScreen from '../AboutMePageMobileScreen/AboutMePageMobil
 
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <AboutMePageComputerScreen />
