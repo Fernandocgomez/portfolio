@@ -12,6 +12,7 @@ import ProjectPageMobileScreen from './components/ProjectPageMobileScreen/Projec
 import AboutSectionComputerScreen from './components/AboutSectionComputerScreen/AboutSectionComputerScreen';
 import About from './components/About/About';
 import ContactMe from './components/ContactMe/ContactMe';
+import Projects from './components/Projects/Projects';
 
 
 function App() {
@@ -50,6 +51,10 @@ function App() {
 
         <Route exact path="/contact-me">
           <ContactMe />
+        </Route>
+
+        <Route exact path="/projects">
+          <Projects />
         </Route>
 
 
